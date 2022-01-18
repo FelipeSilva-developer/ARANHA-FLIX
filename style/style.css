@@ -1,0 +1,46 @@
+/*variaveis*/
+:root{
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+
+/*resetando a pagina toda*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*limite da borda da caixa*/
+
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*estilizando o logo*/
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'arial black', 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+/*estilizando os link*/
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+/*quando o mouse passar por cima fica com outra cor */
+header nav a:hover{
+    color: white;
+}
+
