@@ -15,6 +15,7 @@
 body{
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container{
@@ -44,3 +45,28 @@ header nav a:hover{
     color: white;
 }
 
+/*filme principal*/
+
+.principal{
+    font-size: 16px;
+    /*definindo a imagem de fundo*/
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(/img/capa-house.jpg);
+    /*definindo o tamanho limite*/
+    height: 400px;
+    background-size: cover;
+/*definindo o flexbox*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+/*definindo a distancia dos butoes a descricao*/
+.principal .descricao{
+    margin-bottom: 40px;
+}
+/*definindo o tamanho do nome da serie*/
+.titulo{
+    font-size: 40px;
+}
