@@ -1,2 +1,2 @@
-# Clone-Netflix
- Projeto espelhado na netflix
+# ARANHA-FLIX
+ Projeto inspirado no layout da netflix
