@@ -98,3 +98,18 @@ header nav a:hover{
 .botao i{
     margin-right: 5px;
 }
+
+.container{
+    margin-left: 20px;
+}
+
+.principal .container{
+    width: 70%;
+}
+
+/*container dos posters*/
+.box-filmes{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
