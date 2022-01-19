@@ -50,9 +50,9 @@ header nav a:hover{
 .principal{
     font-size: 16px;
     /*definindo a imagem de fundo*/
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(/img/capa-house.jpg);
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(/img/capa.jpg);
     /*definindo o tamanho limite*/
-    height: 400px;
+    height: 30rem;
     background-size: cover;
 /*definindo o flexbox*/
     display: flex;
@@ -98,6 +98,12 @@ header nav a:hover{
 .botao i{
     margin-right: 5px;
 }
+
+.botao a{
+    text-decoration: none;
+    color: var(--vermelho);
+}
+
 
 .container{
     margin-left: 20px;
