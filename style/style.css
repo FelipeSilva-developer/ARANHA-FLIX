@@ -50,7 +50,7 @@ header nav a:hover{
 .principal{
     font-size: 16px;
     /*definindo a imagem de fundo*/
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(/img/capa.jpg);
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(https://felipesilva-developer.github.io/ARANHA-FLIX/img/capa.jpg);
     /*definindo o tamanho limite*/
     height: 30rem;
     background-size: cover;
